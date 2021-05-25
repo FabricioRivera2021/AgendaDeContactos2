@@ -1,0 +1,160 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 1.5;
+}
+
+:root {
+  background: rgba(0, 0, 0, 0.8);
+  font-family: Helvetica, sans-serif;
+  font-size: 62.5%;
+  color: #fdfdfd;
+}
+
+@media all and (max-width: 720px) {
+  #formulario {
+    width: 80%;
+  }
+}
+
+:root {
+  background: rgba(0, 0, 0, 0.8);
+  font-family: helvetica, sans-serif;
+  color: #fdfdfd;
+}
+
+.contenedor {
+  width: 80%;
+  margin: 2rem 10%;
+}
+
+.contenedor h2 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2.3rem;
+}
+
+.contenedor .formulario-datos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  margin: 1rem auto;
+}
+
+.contenedor .formulario-datos input {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  background: none;
+  line-height: 3rem;
+  outline: 0;
+  border: 0;
+  color: #fdfdfd;
+  border-bottom: 1px solid tomato;
+}
+
+.contenedor .formulario-datos input:focus {
+  border-bottom: 1px solid dodgerblue;
+}
+
+.contenedor .formulario-datos button {
+  margin: 1rem 0;
+  background: dodgerblue;
+  border: 0;
+  outline: 0;
+  height: 3rem;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  -webkit-box-shadow: 3px 4px 5px 1px rgba(0, 0, 0, 0.4);
+          box-shadow: 3px 4px 5px 1px rgba(0, 0, 0, 0.4);
+  color: #fdfdfd;
+}
+
+.contenedor .formulario-datos button:hover {
+  background: tomato;
+}
+
+.contenedor .formulario-datos button:active {
+  -webkit-box-shadow: 0 0 5px 1px rgba(253, 253, 253, 0);
+          box-shadow: 0 0 5px 1px rgba(253, 253, 253, 0);
+  -webkit-transform: translateX(1px);
+          transform: translateX(1px);
+  -webkit-transform: translateY(1px);
+          transform: translateY(1px);
+}
+
+.contenedor .formulario-datos .lista-tareas {
+  display: inline;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contenedor .formulario-datos .lista-tareas__tarea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: right;
+  margin-top: 1rem;
+}
+
+.contenedor .formulario-datos .lista-tareas .fas {
+  color: tomato;
+  cursor: pointer;
+}
+
+.contenedor .formulario-datos .message {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.contenedor .formulario-datos .alert-danger {
+  background: tomato;
+}
+
+.contenedor .formulario-datos .alert-standar {
+  background: cadetblue;
+}
+
+.contenedor .formulario-datos .alert-success {
+  background: #6a921e;
+}
+
+.contenedor .formulario-datos .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #fdfdfd;
+}
+
+.contenedor .formulario-datos .clear {
+  margin-top: 1rem;
+  height: 2rem;
+  background: tomato;
+}
+/*# sourceMappingURL=main.css.map */

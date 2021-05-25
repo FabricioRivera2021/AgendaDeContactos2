@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="#" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/main.css" />
+    <title>Agenda de contactos</title>
+  </head>
+  <body>
+    <section class="contenedor">
+      <!-- Header -->
+      <header>
+        <h2>Agenda de contactos</h2>
+      </header>
+      <div class="formulario-datos" id="formulario">
+        <input
+          type="text"
+          class="formulario-datos__input-nombre"
+          placeholder="Nombre"
+        />
+        <input
+          type="text"
+          class="formulario-datos__input-numero"
+          placeholder="Numero"
+        />
+        <input
+          type="text"
+          class="formulario-datos__input-direccion"
+          placeholder="Direccion"
+        />
+        <button class="formulario-datos__btn">Agregar contacto</button>
+        <p class="message"></p>
+
+        <div class="info">
+          <p>Nombre</p>
+          <p>Numero</p>
+          <p>Direccion</p>
+          <p>Eliminar</p>
+        </div>
+        <!-- Listado de tareas -->
+        <div class="lista-tareas"></div>
+        <button class="clear">Borrar todos los contactos</button>
+      </div>
+    </section>
+
+    <script src="/funciones.js"></script>
+    <script src="/main.js"></script>
+  </body>
+</html>
