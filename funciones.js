@@ -97,7 +97,7 @@ function deleteItem(item, persona){
 //Refresca el navegador
 function update(){
     setTimeout(function(){
-        window.location.href = "https://fabriciorivera2021.github.io/AgendaDeContactos2/";
+        location.reload();
     }, 500);
 }
 
